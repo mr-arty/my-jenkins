@@ -6,3 +6,4 @@ sleep 30s
 echo "Starting Jenkins in a Docker container..."
 docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v jenkins-data:/var/jenkins_home -p 8080:8080 -p 50000:50000 -u jenkins:998 --network='host' \
  --privileged my-jenkins
+ # Substitute proper port numbers, directories and username and GID for Jenkins and Sonarqube in your setup.
