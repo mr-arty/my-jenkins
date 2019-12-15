@@ -1,7 +1,7 @@
 ## Simple proof-of-concept Jenkins CI + Sonarqube setup
 
 This is a fairly simple setup which includes a Docker container running Jenkins CI, based on official Jenkins image from Docker Hub. Sonarqube server is installed locally on my machine and is accessed from inside the container.
----
+
 Here's a brief description of what happens when we run Dockerfile.
 - pull jenkins/jenkins image from Docker Hub
 - switch to root user
